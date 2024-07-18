@@ -12,5 +12,5 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: dotnet publish
-  displayName: 'Run dotnet publish'
+- script: dotnet publish "SNBI Collector/SNBI Collector.csproj"
+  displayName: 'Run dotnet publish "SNBI Collector/SNBI Collector.csproj"'
